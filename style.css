@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  background-color: #eef;
+  text-align: center;
+}
+
+#game {
+  position: relative;
+  margin: 20px auto;
+  width: 800px;
+  height: 200px;
+  background: linear-gradient(to top, #aee, #ddf);
+  overflow: hidden;
+  border: 4px solid #333;
+}
+
+#car {
+  position: absolute;
+  bottom: 20px;
+  left: 45px;
+  width: 40px;
+  height: 25px;
+  background: red;
+  border-radius: 8px;
+}
+
+#obstacle {
+  position: absolute;
+  bottom: 20px;
+  left: 800px;
+  width: 30px;
+  height: 30px;
+  background: brown;
+}
+
+#ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: green;
+}
+
+#score {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#game-over {
+  margin-top: 20px;
+  font-size: 24px;
+  color: red;
+}
