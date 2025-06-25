@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>Niccorin Racing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🏁 Niccorin Racing</h1>
+  <p>スペースキー（またはタップ）でジャンプ！障害物をよけてスコアを稼ごう</p>
+  <div id="score">スコア: 0</div>
+  <div id="game">
+    <div id="car"></div>
+    <div id="obstacle"></div>
+    <div id="ground"></div>
+  </div>
+  <div id="game-over" style="display:none;">💥 ゲームオーバー！<br><button onclick="location.reload()">もう一回！</button></div>
+  <script src="script.js"></script>
+</body>
+</html>
